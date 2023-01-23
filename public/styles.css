@@ -1,0 +1,84 @@
+
+/*.header{
+    background-color: #FF8B13;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 50px;
+}*/
+.img{
+    width: 90px;
+    height: 80px;
+    margin-left: 10px;
+}
+.header{
+    color: #3CCF4E;
+    float: left;
+    font-family: 'Dancing Script', cursive;
+    padding: 50px;
+    margin: 60px;
+}
+.titleimg{
+    float: right;
+    width: 300px;
+    height: 230px;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    
+    
+}
+.cards{
+    
+    border-radius: 79px;
+    box-shadow: 0 1px 2px  #3CCF4E;
+    float: left;
+    margin: 10px;
+    
+}
+.title{
+    color:  #FF8B13;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text{
+    color:  #3CCF4E;
+  
+}
+.btn{
+    float: right;
+    background-color: #FF8B13;
+}
+.nav{
+    background-color: #FF8B13;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 50px;
+    float: right;
+}
+
+.Nav.Link{
+color: #3CCF4E;
+}
+
+.nl{
+    color: #3CCF4E;
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    top: 90%;
+    width: 100%;
+    height: 0.5rem;
+}
+
+footer p{
+    color: #3CCF4E;
+}
+
+
+@media only screen and (min-width: 1024px) {
+.nav .header .cards{
+    
+    display:flex;
+}
+}
