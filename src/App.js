@@ -6,25 +6,22 @@ import Navbar from "./components/Navbar";
 import Header from "./Header";
 //import Footer from "./components/Footer";
 
+import NavBar from './layouts/NavBar';
+import { Route, Routes } from "react-router-dom";
+import Home from './components'
+import VegiProduct from './components/product/vegi';
+import MeatProduct from './components/product/meat';
+
 function App() {
   return (
-    <div className="container">
-    <Navbar />
-    {/*<h2 className="header"><span><img className="img" src="/images/FC1.png" alt="freshcorner" /></span></h2>*/}
-    <Header />
-  {CardArray.map ((x) => {
-  return (
-   <Cards 
-    key={x.id}
-    img={x.img}
-    title={x.title}
-    text={x.text}
-    btn={x.btn}
-    />
+   <Routes>
+    <Route path='/' element={<NavBar />}>
+    <Route index element={<Home />}/>
+    <Route path='vegi' element={<VegiProduct />}/>
+    <Route path='meat' element={<MeatProduct />}/>
 
-)})}
-    {/*<Footer />*/}
-    </div>
+    </Route>
+   </Routes>
   );
 }
 
