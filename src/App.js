@@ -11,6 +11,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from './components'
 import VegiProduct from './components/product/vegi';
 import MeatProduct from './components/product/meat';
+import Profile from "./components/profile/profile";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <Route index element={<Home />}/>
     <Route path='vegi' element={<VegiProduct />}/>
     <Route path='meat' element={<MeatProduct />}/>
+    <Route path='profile' element={<Profile />}/>
 
     </Route>
    </Routes>
