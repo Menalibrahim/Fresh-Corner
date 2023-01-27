@@ -10,7 +10,7 @@ function MyFooter() {
              <div className="text-center mt-2"><a href="cart.html"><i className="fas fa-shopping-cart" style={{fontSize: "20px",color: "#fff"}}></i></a>
                 <p style={{fontSize: "14px"}}><strong>Cart</strong></p>
             </div>
-            <div className="text-center mt-2"><a href="profile.html"><i className="fas fa-user-alt" style={{fontSize: "20px",color: "#fff"}}></i></a>
+            <div className="text-center mt-2"><a href="profile"><i className="fas fa-user-alt" style={{fontSize: "20px",color: "#fff"}}></i></a>
                 <p style={{fontSize: "14px"}}><strong>Profile</strong></p>
             </div>
            
