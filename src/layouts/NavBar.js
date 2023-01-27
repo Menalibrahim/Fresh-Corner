@@ -60,7 +60,7 @@ function NavBar() {
                         </a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link active" href="profile.html">
+                        <a className="nav-link active" href="profile">
                             <i style={{color:"white"}} className="fas fa-user-alt mr-1" />
                             <b>Profile</b>
                         </a>
